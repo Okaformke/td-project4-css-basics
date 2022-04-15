@@ -67,6 +67,7 @@ html,body{
     margin-top: 5%;
     
 }
+/*
 .nkem{
     position: relative;
     top: 0;
@@ -77,6 +78,7 @@ html,body{
     top: 20px;
     left: 20px;
 }
+*/
 .container h1{
       color: steelblue;
       font-size: 2rem;
@@ -200,12 +202,25 @@ footer p{
    margin-bottom: 1rem;
    
 }
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.icons img{
+    justify-content: space-between;
+    align-content: space-between;
+    
+}
+
 @media screen and (max-width: 650px) {
    .nkofor{
         width: 100%;
-        height: 50%;  
+        height: 30%;  
 background-color: deeppink;
 color: white;
+margin-right: 0;
     }
 }
 @media screen and (max-width: 650px) {
@@ -213,6 +228,7 @@ color: white;
         
         height: 20%;  
 margin-top: 10rem;
+margin-right: 0;
     }
 }
 @media screen and (max-width: 650px) {
@@ -225,16 +241,25 @@ margin-top: 10rem;
     }
 }
 @media screen and (max-width: 412px) {
-       .nkofor .nav-link{
+    .nkofor .container, .wrapper{
+padding-right: 0;
+margin-right: 0;
+width: 100%;
 
+    }
+}
+@media screen and (max-width: 254px) {
+    section, ul{
+padding-right: 0;
+margin-right: 0;
 width: 100%;
 
     }
 }
 @media screen and (max-width: 412px) {
     .container, .wrapper img{
-padding-right: 1rem;
-margin-right: 1rem;
+padding-right: 0;
+margin-right: 0;
 
 height: 20%;
 
